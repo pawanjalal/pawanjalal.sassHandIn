@@ -1,0 +1,19 @@
+// import the partials that i need
+
+//Bootstrao essentials
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+//Bootstrap extras
+@import "bootstrap/reboot";
+@import "bootstrap/grid";
+@import "bootstrap/jumbotron";
+@import "bootstrap/card";
+
+//My styles
+@import "variables";
+@import "mixins";
+@import "typo";
+@import "jumbotron";
+@import "card";

@@ -1,0 +1,6 @@
+//jumbotron
+
+.jumbotron{
+  @include my-gradient;
+  @include my-size;
+}

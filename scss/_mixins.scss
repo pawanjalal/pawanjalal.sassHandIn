@@ -1,0 +1,30 @@
+//mixins
+@mixin my-gradient {
+    background: linear-gradient(to left, $brand-secondary, $brand-secondary);
+    color: blue;
+}
+@mixin my-size {
+    width: 100%;
+}
+@mixin my-text {
+    margin-left: 2vw;
+}
+@mixin my-card {
+    background: linear-gradient(to left, $piglet-1, $piglet-2);
+    height: 420px;
+}
+@mixin my-card-img {
+    position: relative;
+    height: 200px;
+}
+@mixin my-card-button {
+    background-color: green;
+    color: whitesmoke;
+    padding: 5px;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    border-radius: 5px;
+}
